@@ -1,0 +1,29 @@
+{
+  "name": "discordjs-heroku-demo",
+  "version": "1.0.0",
+  "description": "A demo of a Discord bot using Discord.js deployed to Heroku",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luntta/discordjs-heroku-demo.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luntta/discordjs-heroku-demo/issues"
+  },
+  "homepage": "https://github.com/luntta/discordjs-heroku-demo#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.1.0",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.8.0",
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "ytdl-core": "^2.1.1"
+  }
+}
